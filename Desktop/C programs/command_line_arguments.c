@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+// Command-Line Arguments in C
+
+int main(int argc, char *argv[]) {
+    int i;
+
+    printf("Total arguments: %d\n", argc);
+
+    for (i = 0; i < argc; i++) {
+        printf("Argument %d: %s\n", i, argv[i]);
+    }
+
+    return 0;
+}
